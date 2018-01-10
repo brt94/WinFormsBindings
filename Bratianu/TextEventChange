@@ -1,0 +1,16 @@
+ private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            int anul = Convert.ToInt32(textBox3.Text);
+            if(anul < 2)
+            {
+                label4.Text = "Noua";
+            }
+            if(anul > 2)
+            {
+                label4.Text = "Masina Buna";
+            }
+            if (anul > 12)
+            {
+                label4.Text = "Rabla";
+            }
+        }
